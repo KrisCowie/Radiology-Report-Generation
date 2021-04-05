@@ -22,4 +22,4 @@ With the following neural network using those generated results as the inputs fo
 
 They hope that this can solve two main problems - replace the extensive training necessary for humans to be able to generate comparable results with machine learning, and potentially homogenize the resulting reports, so that they'll be similar across time and space (with humans writing the reports there's always going to be some variation with how things are phrased, written, and maybe missed).
 
-This repository contains our attempt to reproduce the work in Python.
+This repository contains a recipe for understanding the methods behind the paper, and a Python example of how to generate the reports using CNN's and NLG.
