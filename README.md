@@ -1,8 +1,10 @@
 # Radiology-Report-Generation
 Python demonstration of using two different neural networks to generate radiology reports
 
-Original paper: Progressive Transformer-Based Generation of Radiology Reports 
+Original paper: Progressive Transformer-Based Generation of Radiology Reports:
+
 https://arxiv.org/pdf/2102.09777.pdf
+
 The authors have used a two stage process with the first neural network labeling an X-Ray like so:
 
 POSITIVE - improved bilateral airspace opaci.
