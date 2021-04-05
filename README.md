@@ -11,7 +11,7 @@ UNCERTAIN airspace disease
 
 NEGATIVE consolidations identified pneumothorax
 
-With the following neural network using those generated results as the inputs for writing a complete radiology report
+With the following neural network using those generated results as the inputs for writing a complete radiology report:
 
 "Compared to previous examination, there is a significant imporvement in aeration bilaterally, with improved bilateral airspace opacities. Currently, there are only minimal streaky opacities in the bilateral midlung..."
 
