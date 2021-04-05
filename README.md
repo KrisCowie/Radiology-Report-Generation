@@ -6,7 +6,9 @@ https://arxiv.org/pdf/2102.09777.pdf
 The authors have used a two stage process with the first neural network labeling an X-Ray like so:
 
 POSITIVE - improved bilateral airspace opaci.
+
 UNCERTAIN airspace disease
+
 NEGATIVE consolidations identified pneumothorax
 
 With the following neural network using those generated results as the inputs for writing a complete radiology report
