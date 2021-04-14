@@ -1,8 +1,10 @@
 ### Datasets
-We're going to be using the Indiana University X-Ray dataset, as it has full reports, from which we can extract full feature lists from the images, as well as being a reasonable sized dataset
+We're going to be using the Indiana University X-Ray dataset, as it has full reports, from which we can extract full feature lists from the images, as well as being a
+reasonably sized dataset:
 https://www.kaggle.com/raddar/chest-xrays-indiana-university
 
-That dataset has already been normalized, and converted from DICOM to PNG, so I've just written a quick script to alter the images to 256 x 256 so they can be consistently entered into a neural network
+That dataset has already been normalized, and converted from DICOM to PNG, so I've just written a quick script to alter the images to 256 x 256 so they can be consistently 
+entered into a neural network
 
 
 There are several other options for datasets - 
@@ -16,4 +18,6 @@ https://www.kaggle.com/nih-chest-xrays/data
 VinBigData Chest X-Ray Abnormality Dataset
 https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection
 
-For this specific problem, and as a simple example, these are a little too large (the first two are >100,000 images each), and the VinBigData X-ray dataset only has 1 of 14 potential features highlighted for each image, which is great for the problem they're working on specifically (using CV to put bounding boxes around those 1/14 things), but not great to write full radiology reports for each image.
+For this specific problem, and as a simple example, these are a little too large (the first two are >100,000 images each), and the VinBigData X-ray dataset only has 
+1 of 14 potential features highlighted for each image, which is great for the problem they're working on specifically (using CV to put bounding boxes around those 1/14 things), 
+but not great to write full radiology reports for each image.
