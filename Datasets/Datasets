@@ -4,7 +4,8 @@ reasonably sized dataset:
 https://www.kaggle.com/raddar/chest-xrays-indiana-university
 
 That dataset has already been normalized, and converted from DICOM to PNG, so I've just written a quick script to alter the images to 256 x 256 so they can be consistently 
-entered into a neural network
+entered into a neural network - link to the 256 x 256 converted dataset:
+https://drive.google.com/drive/folders/11R2TRqwPmrlEpBgk0ur0CHdVpR32o_ez?usp=sharing
 
 
 There are several other options for datasets - 
