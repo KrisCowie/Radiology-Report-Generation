@@ -18,6 +18,10 @@ https://www.kaggle.com/nih-chest-xrays/data
 VinBigData Chest X-Ray Abnormality Dataset
 https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection
 
+VinBigData Resized:
+https://www.kaggle.com/xhlulu/vinbigdata-process-and-resize-to-image
+(scripts to process the DICOM images to PNG, while resizing to a number of different sizes)
+
 For this specific problem, and as a simple example, these are a little too large (the first two are >100,000 images each), and the VinBigData X-ray dataset only has 
 1 of 14 potential features highlighted for each image, which is great for the problem they're working on specifically (using CV to put bounding boxes around those 1/14 things), 
 but not great to write full radiology reports for each image.
